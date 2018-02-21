@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="configuration.AutoComplete">
+        <methods>
+          <include name="autoComplete"/>
+        </methods>
+      </class> <!-- configuration.AutoComplete -->
+      <class name="mapFunctionality.CurrentLocationCrowdSource">
+        <methods>
+          <include name="setUp"/>
+          <include name="reportIncident"/>
+        </methods>
+      </class> <!-- mapFunctionality.CurrentLocationCrowdSource -->
+      <class name="mapFunctionality.SimpleNavigation">
+        <methods>
+          <include name="Navigation"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- mapFunctionality.SimpleNavigation -->
+      <class name="mapFunctionality.SimpleSearch">
+        <methods>
+          <include name="Search"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- mapFunctionality.SimpleSearch -->
+      <class name="loginModule.SignUpUser">
+        <methods>
+          <include name="userSignUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- loginModule.SignUpUser -->
+      <class name="loginModule.LoginPage">
+        <methods>
+          <include name="setUp"/>
+          <include name="loginSingleUser"/>
+        </methods>
+      </class> <!-- loginModule.LoginPage -->
+      <class name="userProfile.UpdateUserProfile">
+        <methods>
+          <include name="UpdateAll"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- userProfile.UpdateUserProfile -->
+      <class name="mapFunctionality.FromAndToNavigation">
+        <methods>
+          <include name="setUp"/>
+          <include name="Navigation"/>
+        </methods>
+      </class> <!-- mapFunctionality.FromAndToNavigation -->
+      <class name="userProfile.MapFilter">
+        <methods>
+          <include name="mapFilterOnOff"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- userProfile.MapFilter -->
+      <class name="loginModule.SignWithGoogle">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- loginModule.SignWithGoogle -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
